@@ -6,6 +6,8 @@ const Legal = () => {
   return (
     <div>
       <Nav />
+
+      {/* Bloc */}
       <main className="container mt-4">
         <div className="col-md-12 mb-4">
           <h1 className="text-center color-official4 border-section-title banner-section-bg">
@@ -14,7 +16,7 @@ const Legal = () => {
         </div>
 
         <div className="accordion mb-4" id="accordion">
-          {/* Accordéon - L’éditeur du site */}
+          {/* Accordeon - The website editor */}
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">
               <button
@@ -68,8 +70,9 @@ const Legal = () => {
               </div>
             </div>
           </div>
+          {/* End accordeon - The website editor */}
 
-          {/* Accordéon - L’hébergeur du site */}
+          {/* Accordeon - The website host */}
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingTwo">
               <button
@@ -105,8 +108,9 @@ const Legal = () => {
               </div>
             </div>
           </div>
+          {/* End accordeon - website host */}
 
-          {/* Accordéon - Les crédits */}
+          {/* Accordeon - credits */}
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingThree">
               <button
@@ -139,8 +143,13 @@ const Legal = () => {
               </div>
             </div>
           </div>
+          {/* End accordeon - credits */}
+
+
         </div>
+        {/* End bloc */}
       </main>
+
       <Footer />
       <Scroll />
     </div>

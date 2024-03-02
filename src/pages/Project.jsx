@@ -16,7 +16,8 @@ const Project = () => {
           <h1 className="text-center color-official4 border-section-title banner-section-bg">Projects</h1>
         </div>
         <div className="row">
-          {/* Projet 1 */}
+
+          {/* Project 1 */}
           <div className="col-md-4 mb-4">
             <div className="card">
               <img src={cardImg} className="card-img-top" alt="Projet 1" />
@@ -38,8 +39,9 @@ const Project = () => {
               </div>
             </div>
           </div>
-
-          {/* Projet 2 */}
+          {/* End project 1 */}
+          
+          {/* Project 2 */}
           <div className="col-md-4 mb-4">
             <div className="card">
               <img src={cardImg2} className="card-img-top" alt="Projet 2" />
@@ -60,8 +62,9 @@ const Project = () => {
               </div>
             </div>
           </div>
+          {/* End bloc 2 */}
 
-          {/* Projet 3 */}
+          {/* Project 3 */}
           <div className="col-md-4 mb-4">
             <div className="card">
               <img src={cardImg3} className="card-img-top" alt="Projet 3" />
@@ -85,7 +88,10 @@ const Project = () => {
               </div>
             </div>
           </div>
+          {/* End project 3 */}
+
         </div>
+        {/* End bloc */}
       </main>
 
       <Footer />

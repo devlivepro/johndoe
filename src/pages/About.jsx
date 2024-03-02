@@ -20,7 +20,7 @@ const About = () => {
 
     fetchData();
   }, []);
-  // End
+  // End const github information retrieval
 
   return (
     <div>

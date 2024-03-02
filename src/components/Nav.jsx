@@ -20,7 +20,7 @@ function Nav() {
     <nav className="navbar navbar-expand-lg navbar-dark nav-bg-color">
       <div className="container">
         <Link to="/" className="navbar-brand">
-          <h1>John Doe</h1>
+          <p class="header-text">John Doe</p>
         </Link>
         
         {/* Button menu mobile */}

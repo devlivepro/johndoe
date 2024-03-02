@@ -9,11 +9,13 @@ const Service = () => {
     <div>
       <Nav />
 
+      {/* Bloc */}
       <main className="container mt-4">
         <div className="col-md-12 mb-4">
           <h1 className="text-center color-official4 border-section-title banner-section-bg">Services</h1>
         </div>
         <div className="row">
+
           {/* Service 1 */}
           <div className="col-md-4 mb-4">
             <div className="card">
@@ -48,6 +50,7 @@ const Service = () => {
               </div>
             </div>
           </div>
+          {/* End service 1 */}
 
           {/* Service 2 */}
           <div className="col-md-4 mb-4">
@@ -83,6 +86,7 @@ const Service = () => {
               </div>
             </div>
           </div>
+          {/* End service 2 */}
 
           {/* Service 3 */}
           <div className="col-md-4 mb-4">
@@ -133,7 +137,10 @@ const Service = () => {
               </div>
             </div>
           </div>
+          {/* End service 3 */}
+
         </div>
+        {/* End bloc */}
       </main>
 
       <Footer />

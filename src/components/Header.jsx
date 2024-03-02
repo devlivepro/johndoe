@@ -2,6 +2,7 @@ import React from "react";
 
 function Header() {
   return (
+    
     // Bloc header
     <header className="position-relative">
       <div
@@ -19,6 +20,7 @@ function Header() {
         </a>
       </div>
     </header>
+
     // End bloc header
   );
 }

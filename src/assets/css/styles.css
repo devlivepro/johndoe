@@ -39,6 +39,10 @@ body {
   .color-official5 {
     color: #000000;
   }
+  .header-text{
+    font-size: xxx-large;
+    color: #eee;
+  }
   .nav-bg-color {
     background-color: #1e1e1e;
     border-bottom: 1px solid #EEE;

@@ -1,0 +1,23 @@
+/* Background Mobile */
+@media (max-width: 576px) {
+    header {
+      background-image: url('../img/hero-bg-mobile.jpg');
+      height: 50vh;
+      background-size: cover;
+    }
+    .banner-section-bg{
+      background-image: url("../img/banner.jpg");
+      height: 10vh;
+      background-size: cover;
+    }
+    .border-section-title {
+      -webkit-text-decoration: underline #eee;
+      text-decoration: underline #eee;
+      text-transform: uppercase;
+      line-height: 3;
+    }
+    .footer-links {
+      display: none;
+    }
+
+  }

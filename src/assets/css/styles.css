@@ -40,8 +40,9 @@ body {
     color: #000000;
   }
   .header-text{
-    font-size: xxx-large;
+    font-size: xx-large;
     color: #eee;
+    margin: 0;
   }
   .nav-bg-color {
     background-color: #1e1e1e;
@@ -51,8 +52,8 @@ body {
     text-transform: uppercase;
   }
   .nav-link:hover{
-    transition: background-color 0.3s ease; /* Animation de transition */
-    background-color: rgba(255, 255, 255, 0.8); /* Fond blanc semi-transparent */
+    transition: background-color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.8);
   }
   .active .nav-link {
     color: #eee;
@@ -63,11 +64,10 @@ body {
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    color: #eee;
+    color: #FFFFFF;
     text-align: center;
     white-space: nowrap;
-    background-color: #0d6efd;
-    transition: var(--bs-progress-bar-transition);
+    background-color: #333333;
   }
   .footer {
     margin-top: 20px;
@@ -111,7 +111,7 @@ body {
     background-size: cover;
   }
   .effect{
-    background-color: rgba (0,105, 255, 0.5);
+    background-color: #001005;
   }
   .effect-serv{
     background-color: #cde1f8;

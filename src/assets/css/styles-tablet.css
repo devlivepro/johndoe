@@ -5,6 +5,9 @@
       height: 50vh;
       background-size: cover;
     }
+    .header-text{
+      text-transform: uppercase;
+    }
     .banner-section-bg{
       background-image: url("../img/banner.jpg");
       height: 10vh;

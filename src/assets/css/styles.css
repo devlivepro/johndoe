@@ -42,6 +42,7 @@ body {
   .header-text{
     font-size: xx-large;
     color: #eee;
+    text-transform: uppercase;
     margin: 0;
   }
   .nav-bg-color {

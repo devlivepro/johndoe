@@ -45,7 +45,7 @@ const Home = () => {
                     skills to work for a visionary company and contributing to
                     its success.</h6>
                   </p>
-                  <h1 className="color-official1">Skills</h1>
+                  <h2>Skills</h2>
                   <div className="progress mb-3">
                     <div
                       className="progress-bar color-official1"
@@ -54,8 +54,9 @@ const Home = () => {
                       aria-valuenow="90"
                       aria-valuemin="0"
                       aria-valuemax="100"
+                      aria-labelledby="progressbar-label"
                     >
-                      <h7>HTML/CSS (90%)</h7>
+                      <span id="progressbar-label">HTML/CSS (90%)</span>
                     </div>
                   </div>
                   <div className="progress mb-3">
@@ -66,8 +67,9 @@ const Home = () => {
                       aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
+                      aria-labelledby="progressbar-label"
                     >
-                      <h7>JavaScript (80%)</h7>
+                      <span id="progressbar-label">JavaScript (80%)</span>
                     </div>
                   </div>
                   <div className="progress mb-3">
@@ -78,8 +80,9 @@ const Home = () => {
                       aria-valuenow="70"
                       aria-valuemin="0"
                       aria-valuemax="100"
+                      aria-labelledby="progressbar-label"
                     >
-                      <h7>React (70%)</h7>
+                      <span id="progressbar-label">React (70%)</span>
                     </div>
                   </div>
                 </div>

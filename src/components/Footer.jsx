@@ -25,6 +25,7 @@ function Footer() {
                 href="https://github.com/johndoe"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Github John Doe"
                 className="social-icon"
               >
                 <FontAwesomeIcon icon={faGithub} size="xl" />
@@ -33,6 +34,7 @@ function Footer() {
                 href="https://twitter.com/johndoe"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Twitter John Doe"
                 className="social-icon"
               >
                 <FontAwesomeIcon icon={faTwitter} size="xl" />
@@ -41,6 +43,7 @@ function Footer() {
                 href="https://www.linkedin.com/in/johndoe/"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Linkedin John Doe"
                 className="social-icon"
               >
                 <FontAwesomeIcon icon={faLinkedin} size="xl" />
@@ -51,8 +54,8 @@ function Footer() {
 
           {/* Second coluwn */}
           <div className="col-md-3">
+            <h5>Useful links</h5>
             <ul>
-              <h5>Useful links</h5>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
@@ -94,8 +97,8 @@ function Footer() {
 
           {/* Third coluwn */}
           <div className="col-md-3">
+            <h5>Latest projects</h5>
             <ul>
-              <h5>Latest projects</h5>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
@@ -123,8 +126,8 @@ function Footer() {
 
           {/* Fourth colonne */}
           <div className="col-md-3">
+            <h5>Latest articles</h5>
             <ul>
-              <h5>Latest articles</h5>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}

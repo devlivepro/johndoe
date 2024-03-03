@@ -61,35 +61,35 @@ function Footer() {
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/">Home</a>
+                <a href="/"> Home</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/about">About</a>
+                <a href="/about"> About</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/service">Services</a>
+                <a href="/service"> Services</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/contact">Contact</a>
+                <a href="/contact"> Contact</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/legal">Legal Notice</a>
+                <a href="/legal"> Legal Notice</a>
               </li>
             </ul>
           </div>
@@ -104,21 +104,21 @@ function Footer() {
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/project">Wellness area</a>
+                <a href="/project"> Wellness area</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/project">Fresh food</a>
+                <a href="/project"> Fresh food</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/project">Japanese restaurant</a>
+                <a href="/project"> Japanese restaurant</a>
               </li>
             </ul>
           </div>
@@ -133,42 +133,42 @@ function Footer() {
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/blog">Increase product sales</a>
+                <a href="/blog"> Increase product sales</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/blog">Learn SEO</a>
+                <a href="/blog"> Learn SEO</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/blog">Build a mock-up</a>
+                <a href="/blog"> Build a mock-up</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/blog">Learn CSS</a>
+                <a href="/blog"> Learn CSS</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/blog">Learn Technologies</a>
+                <a href="/blog"> Learn Technologies</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/blog">Learn AI</a>
+                <a href="/blog"> Learn AI</a>
               </li>
             </ul>
           </div>

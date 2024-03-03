@@ -12,7 +12,7 @@ Installation Steps
 
     bash
 
-git clone https://github.com/your-user/your-project.git
+git clone https://github.com/devlivepro/johndoe.git
 
 Make sure to replace your-user and your-project with your GitHub username and the name of your project.
 

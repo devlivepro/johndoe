@@ -54,8 +54,8 @@ function Footer() {
 
           {/* Second coluwn */}
           <div className="col-md-3">
+            <h5>Useful links</h5>
             <ul>
-              <h5>Useful links</h5>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
@@ -97,8 +97,8 @@ function Footer() {
 
           {/* Third coluwn */}
           <div className="col-md-3">
+            <h5>Latest projects</h5>
             <ul>
-              <h5>Latest projects</h5>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
@@ -126,8 +126,8 @@ function Footer() {
 
           {/* Fourth colonne */}
           <div className="col-md-3">
+            <h5>Latest articles</h5>
             <ul>
-              <h5>Latest articles</h5>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}

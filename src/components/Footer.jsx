@@ -15,10 +15,12 @@ function Footer() {
           {/* First coluwn */}
           <div className="col-md-3">
             <p>
-              <h5>John Doe</h5>
-              <p>228 Park Ave S, New York</p>
-              <p>NY 10003, USA</p>
-              <p>Phone: (123) 456-7890</p>
+              <h6 className="bold">John Doe</h6>
+              <address>
+                <p className="semi-bold">40 Rue Laure Diebold</p>
+                <p className="semi-bold">69009 Lyon, France</p>
+                <p className="semi-bold">Phone: 06 20 30 40 45</p>
+              </address>
             </p>
             <div>
               <a
@@ -54,7 +56,7 @@ function Footer() {
 
           {/* Second coluwn */}
           <div className="col-md-3">
-            <h5>Useful links</h5>
+            <h6 className="bold">Useful links</h6>
             <ul>
               <li>
                 <FontAwesomeIcon
@@ -97,15 +99,8 @@ function Footer() {
 
           {/* Third coluwn */}
           <div className="col-md-3">
-            <h5>Latest projects</h5>
+            <h6 className="bold">Latest projects</h6>
             <ul>
-              <li>
-                <FontAwesomeIcon
-                  icon={faChevronRight}
-                  style={{ color: "#0d6efd" }}
-                />
-                <a href="/project"> Wellness area</a>
-              </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
@@ -118,7 +113,14 @@ function Footer() {
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/project"> Japanese restaurant</a>
+                <a href="/project"> Akira Restaurant</a>
+              </li>
+              <li>
+                <FontAwesomeIcon
+                  icon={faChevronRight}
+                  style={{ color: "#0d6efd" }}
+                />
+                <a href="/project"> Wellness area</a>
               </li>
             </ul>
           </div>
@@ -126,49 +128,28 @@ function Footer() {
 
           {/* Fourth colonne */}
           <div className="col-md-3">
-            <h5>Latest articles</h5>
+            <h6 className="bold">Latest articles</h6>
             <ul>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/blog"> Increase product sales</a>
+                <a href="/blog"> Coding your site in HTML/CSS</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/blog"> Learn SEO</a>
+                <a href="/blog"> Sell your products on the web</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
-                <a href="/blog"> Build a mock-up</a>
-              </li>
-              <li>
-                <FontAwesomeIcon
-                  icon={faChevronRight}
-                  style={{ color: "#0d6efd" }}
-                />
-                <a href="/blog"> Learn CSS</a>
-              </li>
-              <li>
-                <FontAwesomeIcon
-                  icon={faChevronRight}
-                  style={{ color: "#0d6efd" }}
-                />
-                <a href="/blog"> Learn Technologies</a>
-              </li>
-              <li>
-                <FontAwesomeIcon
-                  icon={faChevronRight}
-                  style={{ color: "#0d6efd" }}
-                />
-                <a href="/blog"> Learn AI</a>
+                <a href="/blog"> Position your site on Google</a>
               </li>
             </ul>
           </div>
@@ -177,7 +158,7 @@ function Footer() {
 
       <div className="row" style={{ backgroundColor: "#000000" }}>
         <div className="col-md-12 text-center">
-          <p className="footer color-official4">© 2024 Designed by John Doe</p>
+          <p className="footer color-official4">© Designed by John Doe</p>
         </div>
       </div>
     </footer>

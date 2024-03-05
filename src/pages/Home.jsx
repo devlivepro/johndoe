@@ -2,8 +2,8 @@ import React from "react";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import Scroll from '../components/Scroll';
-import johnDoeImg from "../assets/img/john-doe-profil.jpg";
+import Scroll from "../components/Scroll";
+import johnDoeImg from "../assets/img/john-doe-about.jpg";
 
 const Home = () => {
   return (
@@ -14,75 +14,115 @@ const Home = () => {
       <main className="container">
         <section id="about" className="py-5">
           <div className="row">
-            <div className="col-md-6">
-              <img
-                src={johnDoeImg}
-                alt="John Doe"
-                className="img-fluid rounded mb-3"
-              />
-            </div>
-            <div className="col-md-6">
+            <div className="col-md-12">
               <div className="card">
                 <div className="card-body">
-                  <h1 className="card-title">About</h1>
-                  <p className="card-text">
-                    <h6>My name is <strong>Joe Doe</strong> and I'm a technology enthusiast in the
-                    making. Currently training to become a web developer, I'm
-                    about to complete my academic course and enter the
-                    professional world. My goal is to use my newly acquired
-                    skills in web development to contribute to innovative and
-                    challenging projects. I'm driven by curiosity and a constant
-                    desire to learn, which is why I'm looking for exciting
-                    challenges in my future job. My background has enabled me to
-                    master essential web languages and technologies, including
-                    HTML, CSS and JavaScript. What's more, I've developed solid
-                    web design and development skills through practical projects
-                    and academic experience. I'm keen to join a dynamic team
-                    where I can contribute and learn in a collaborative
-                    environment. My motivation, perseverance and desire to grow
-                    professionally make me an ideal candidate for web
-                    development opportunities. I'm looking forward to putting my
-                    skills to work for a visionary company and contributing to
-                    its success.</h6>
-                  </p>
-                  <h2>Skills</h2>
-                  <div className="progress mb-3">
-                    <div
-                      className="progress-bar color-official1"
-                      role="progressbar"
-                      style={{ width: "90%" }}
-                      aria-valuenow="90"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      aria-labelledby="progressbar-label"
-                    >
-                      <span id="progressbar-label">HTML/CSS (90%)</span>
+                  <div className="row">
+                    {/* Contenu de gauche */}
+                    <div className="col-md-6">
+                      <h1 className="card-title border-title bold">About</h1>
+                        <blockquote className="semi-bold">
+                          Passionate about computers and new technologies, I
+                        trained as a <strong>web integrator-developer</strong>
+                        at CEF. During this training, I was able to acquire a
+                        solid foundation for working in the field of <strong>web
+                        development</strong>.
+                        </blockquote>
+
+                      <blockquote>
+                        Based in Lyon, I'm looking for a work-study position in
+                        a digital agency to consolidate my training as a
+                        <strong>full-stack web developer</strong>.
+                      </blockquote>
+
+                      <blockquote>
+                        I pay particular attention to the quality of the code I
+                        write and respect web best practices.
+                      </blockquote>
                     </div>
-                  </div>
-                  <div className="progress mb-3">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "80%" }}
-                      aria-valuenow="80"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      aria-labelledby="progressbar-label"
-                    >
-                      <span id="progressbar-label">JavaScript (80%)</span>
-                    </div>
-                  </div>
-                  <div className="progress mb-3">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "70%" }}
-                      aria-valuenow="70"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      aria-labelledby="progressbar-label"
-                    >
-                      <span id="progressbar-label">React (70%)</span>
+
+                    {/* Contenu de droite */}
+                    <div className="col-md-6">
+                      <img
+                        src={johnDoeImg}
+                        alt="John Doe"
+                        className="img-fluid rounded"
+                      />
+                      <p>{/* Texte sous l'image */}</p>
+                      <h2>My skills</h2>
+                      <span id="progressbar-label">HTML5 90%</span>
+                      <div className="progress mb-3">
+                        <div
+                          className="progress-bar progressbar-backgound1"
+                          role="progressbar"
+                          style={{ width: "90%" }}
+                          aria-valuenow="90"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          aria-labelledby="progressbar-label"
+                        >
+                        </div>
+                      </div>
+
+                      <span id="progressbar-label">CSS 80%</span>
+                      <div className="progress mb-3">
+                        <div
+                          className="progress-bar progressbar-backgound2"
+                          role="progressbar"
+                          style={{ width: "80%" }}
+                          aria-valuenow="80"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          aria-labelledby="progressbar-label"
+                        >
+                        </div>
+                      </div>
+
+                      <span id="progressbar-label">JAVASCRIPT 70%</span>
+                      <div className="progress mb-3">
+                        <div
+                          className="progress-bar progressbar-backgound3"
+                          role="progressbar"
+                          style={{ width: "70%" }}
+                          aria-valuenow="70"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          aria-labelledby="progressbar-label"
+                        >
+                          
+                        </div>
+                      </div>
+
+                      <span id="progressbar-label">PHP 60%</span>
+                      <div className="progress mb-3">
+                        <div
+                          className="progress-bar progressbar-backgound4"
+                          role="progressbar"
+                          style={{ width: "60%" }}
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          aria-labelledby="progressbar-label"
+                        >
+                          
+                        </div>
+                      </div>
+
+                      <span id="progressbar-label">REACT 50%</span>
+                      <div className="progress mb-3">
+                        <div
+                          className="progress-bar progressbar-backgound5"
+                          role="progressbar"
+                          style={{ width: "50%" }}
+                          aria-valuenow="50"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          aria-labelledby="progressbar-label"
+                        >
+                          
+                        </div>
+                      </div>
+
                     </div>
                   </div>
                 </div>
@@ -91,7 +131,7 @@ const Home = () => {
           </div>
         </section>
       </main>
-      
+
       <Footer />
       <Scroll />
     </div>

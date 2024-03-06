@@ -29,119 +29,135 @@ const Contact = () => {
       <Nav />
 
       {/* Bloc contact*/}
-      <main className="container mt-4">
-        <div className="col-md-12 mb-4">
-          <h1 className="text-center color-official4 border-section-title banner-section-contact">
-            Contact
-          </h1>
-        </div>
-        <div className="row mb-4">
-          <div className="col-md-6">
-          <form onSubmit={handleSubmit}>
-              <div className="mb-3">
-                <label htmlFor="name" className="form-label">
-                  Name:
-                </label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="mb-3">
-                <label htmlFor="email" className="form-label">
-                  Email:
-                </label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="mb-3">
-                <label htmlFor="phone" className="form-label">
-                  Phone number:
-                </label>
-                <input
-                  type="tel"
-                  className="form-control"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="mb-3">
-                <label htmlFor="subject" className="form-label">
-                  Subject:
-                </label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="subject"
-                  name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <div className="mb-3">
-                <label htmlFor="message" className="form-label">
-                  Message:
-                </label>
-                <textarea
-                  className="form-control"
-                  id="message"
-                  name="message"
-                  rows="5"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" className="btn btn-primary">
-                Send
-              </button>
-            </form>
+      <div class="background-contact">
+        <br />
+        <main className="container mt-12 backgroundcolor-contact">
+          <div className="col-md-12 mb-4">
+            <h1 className="text-center">Contact</h1>
+            <h5 className="text-center">
+              Here are a few articles on web development.
+            </h5>
+            <div className="border-title-service text-center"></div>
           </div>
-          {/* End contact */}
+          <div className="row mb-5">
+            <div className="col-md-6">
+              <h3 class="card-title mb-4 pb-2 border-title bold">
+                Contact form
+              </h3>
+              <form onSubmit={handleSubmit}>
+                <div className="mb-3">
+                  <input
+                    type="text"
+                    className="form-control semi-bold"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                    placeholder="Your name"
+                  />
+                </div>
 
-          {/* Bloc map */}
-          <div className="col-md-6">
-          <h1>John Doe</h1>
-            <p>228 Park Ave S, New York</p>
-            <p>NY 10003, USA</p>
-            <p>Phone: (123) 456-7890</p>
-            <p>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.104108029262!2d-73.99328961090748!3d40.73773466228136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a18eea9bc7%3A0x854ed8e97acd1dde!2sJohn%20Doe!5e0!3m2!1sfr!2sfr!4v1709121020884!5m2!1sfr!2sfr"
-                width="100%"
-                height="400"
-                style={{ border: "0" }}
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                title="Google Map"
-              ></iframe>
-            </p>
+                <div className="mb-3">
+                  <input
+                    type="email"
+                    className="form-control semi-bold"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                    placeholder="Your email address"
+                  />
+                </div>
+
+                <div className="mb-3">
+                  <input
+                    type="tel"
+                    className="form-control semi-bold"
+                    id="phone"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    required
+                    placeholder="Your phone number"
+                  />
+                </div>
+
+                <div className="mb-3">
+                  <input
+                    type="text"
+                    className="form-control semi-bold"
+                    id="subject"
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleChange}
+                    required
+                    placeholder="Subject"
+                  />
+                </div>
+
+                <div className="mb-2">
+                  <textarea
+                    className="form-control semi-bold"
+                    id="message"
+                    name="message"
+                    rows="5"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                    placeholder="Your message"
+                  ></textarea>
+                </div>
+
+                <button
+                  class="text-center"
+                  type="submit"
+                  className="btn btn-primary mx-auto d-block mb-2"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+            {/* End contact */}
+
+            {/* Bloc map */}
+            <div className="col-md-6">
+              <h3 class="card-title mb-4 pb-2 border-title bold">
+                My contact details
+              </h3>
+              
+              <address>
+                <p className="semi-bold">
+                  40 Rue Laure Diebold, 69009 Lyon, France <br /> 06 20 30 40 50
+                </p>
+              </address>
+
+              <div
+                className="col-md-12"
+                style={{ height: "100%", overflow: "hidden" }}
+              >
+                <iframe
+                  className="map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.6269657540965!2d4.796403976584354!3d45.77866571240166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1709750285848!5m2!1sfr!2sfr"
+                  width="100%"
+                  height="100%"
+                  allowfullscreen=""
+                  loading="lazy"
+                  style={{ border: "0" }}
+                  referrerpolicy="no-referrer-when-downgrade"
+                  title="Google Map"
+                ></iframe>
+              </div>
+            </div>
+            {/* End map */}
           </div>
-          {/* End map */}
-          
-        </div>
-      </main>
-      {/* End */}
+        </main>
+        {/* End */}
 
-      <Footer />
-      <Scroll />
+        <Footer />
+        <Scroll />
+      </div>
     </div>
   );
 };

@@ -32,7 +32,7 @@ const Contact = () => {
       <Nav />
 
       {/* Bloc contact*/}
-      <div class="background-contact">
+      <div className="background-contact">
         <br />
         <main className="container mt-12 backgroundcolor-contact">
           <div className="col-md-12 mb-4">

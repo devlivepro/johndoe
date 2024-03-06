@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faTwitter, faLinkedin,} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faSquareTwitter, faLinkedin,} from "@fortawesome/free-brands-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
@@ -16,10 +16,8 @@ function Footer() {
           <div className="col-md-3">
             <p>
               <h6 className="bold">John Doe</h6>
-              <address>
-                <p className="semi-bold">40 Rue Laure Diebold</p>
-                <p className="semi-bold">69009 Lyon, France</p>
-                <p className="semi-bold">Phone: 06 20 30 40 45</p>
+              <address className="semi-bold">
+                40 Rue Laure Diebold <br/> 69009 Lyon, France <br/> Phone: 06 20 30 40 45
               </address>
             </p>
             <div>
@@ -39,7 +37,7 @@ function Footer() {
                 aria-label="Twitter John Doe"
                 className="social-icon"
               >
-                <FontAwesomeIcon icon={faTwitter} size="xl" />
+                <FontAwesomeIcon icon={faSquareTwitter} size="xl" />
               </a>
               <a
                 href="https://www.linkedin.com/in/johndoe/"

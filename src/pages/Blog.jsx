@@ -92,7 +92,7 @@ const Blog = () => {
                       to={`https://www.briantracy.com/blog/sales-success/increase-sales/${article.id}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-primary"
+                      className="btn btn-primary mt-3"
                     >
                       Read more
                     </Link>
@@ -104,7 +104,7 @@ const Blog = () => {
                       to={`https://mangools.com/blog/learn-seo/${article.id}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-primary"
+                      className="btn btn-primary mt-3"
                     >
                       Read more
                     </Link>
@@ -116,7 +116,7 @@ const Blog = () => {
                       to={`https://visme.co/blog/website-mockup/${article.id}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-primary"
+                      className="btn btn-primary mt-3"
                     >
                       Read more
                     </Link>
@@ -128,7 +128,7 @@ const Blog = () => {
                       to={`https://blog.hubspot.com/website/css-tutorial${article.id}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-primary"
+                      className="btn btn-primary mt-3"
                     >
                       Read more
                     </Link>
@@ -140,7 +140,7 @@ const Blog = () => {
                       to={`https://cmoe.com/blog/23-of-the-best-learning-and-development-ld-blogs/${article.id}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-primary"
+                      className="btn btn-primary mt-3"
                     >
                       Read more
                     </Link>
@@ -152,7 +152,7 @@ const Blog = () => {
                       to={`https://www.datacamp.com/blog/how-to-learn-ai${article.id}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-primary"
+                      className="btn btn-primary mt-3"
                     >
                       Read more
                     </Link>
@@ -182,7 +182,7 @@ const Blog = () => {
                       Published July 30, 2022
                     </div>
                   ) : (
-                    <div className="text-achievement text-center semi-bold">
+                    <div className="text-achievement semi-bold">
                       Published July 12, 2022
                     </div>
                   )}

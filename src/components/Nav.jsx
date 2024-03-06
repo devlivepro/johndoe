@@ -50,7 +50,7 @@ function Nav() {
                 activeLink === "/service" ? "active" : ""
               }`}
             >
-              <Link to="/service" className="nav-link">
+              <Link to="/service" className="nav-link bold">
                 Services
               </Link>
             </li>
@@ -59,14 +59,14 @@ function Nav() {
                 activeLink === "/project" ? "active" : ""
               }`}
             >
-              <Link to="/project" className="nav-link">
+              <Link to="/project" className="nav-link bold">
                 Projects
               </Link>
             </li>
             <li
               className={`nav-item ${activeLink === "/blog" ? "active" : ""}`}
             >
-              <Link to="/blog" className="nav-link">
+              <Link to="/blog" className="nav-link bold">
                 Blog
               </Link>
             </li>
@@ -75,7 +75,7 @@ function Nav() {
                 activeLink === "/contact" ? "active" : ""
               }`}
             >
-              <Link to="/contact" className="nav-link">
+              <Link to="/contact" className="nav-link bold">
                 Contact
               </Link>
             </li>

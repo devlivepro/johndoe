@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import Scroll from "../components/Scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons";
 
 // Const contact
 const Contact = () => {
@@ -126,10 +129,20 @@ const Contact = () => {
               <h3 class="card-title mb-4 pb-2 border-title bold">
                 My contact details
               </h3>
-              
+
               <address>
                 <p className="semi-bold">
-                  40 Rue Laure Diebold, 69009 Lyon, France <br /> 06 20 30 40 50
+                  <FontAwesomeIcon
+                    icon={faLocationDot}
+                    style={{ color: "#444", fontSize: "1em" }}
+                  />{" "}
+                  40 Rue Laure Diebold, 69009 Lyon, France
+                  <br />
+                  <FontAwesomeIcon
+                    icon={faMobileScreenButton}
+                    style={{ color: "#444", fontSize: "1em" }}
+                  />{" "}
+                  06 20 30 40 50
                 </p>
               </address>
 

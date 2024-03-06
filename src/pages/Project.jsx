@@ -16,8 +16,8 @@ const Project = () => {
 
       <main className="container mt-4">
         <div className="col-md-12">
-          <h1 className="text-center">My service offer</h1>
-          <h5 className="text-center">Here are the services I can provide.</h5>
+          <h1 className="text-center">Projects</h1>
+          <h5 className="text-center">Here are a few of my creations.</h5>
           <div className="border-title-service text-center"></div>
         </div>
         <div className="row">

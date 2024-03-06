@@ -33,7 +33,7 @@ const Project = () => {
                   Creation of a website with online ordering.
                   <br />
                   <br />
-                  <Link to="/voir" style={{ textDecoration: "none" }}>
+                  <Link to="#" style={{ textDecoration: "none" }}>
                     <button className="button-look bold">See</button>
                   </Link>
                 </p>
@@ -55,7 +55,7 @@ const Project = () => {
                   Creation of a showcase website
                   <br />
                   <br />
-                  <Link to="/voir" style={{ textDecoration: "none" }}>
+                  <Link to="#" style={{ textDecoration: "none" }}>
                     <button className="button-look bold">See</button>
                   </Link>
                 </p>
@@ -77,7 +77,7 @@ const Project = () => {
                   Creation of a website with online ordering.
                   <br />
                   <br />
-                  <Link to="/voir" style={{ textDecoration: "none" }}>
+                  <Link to="#" style={{ textDecoration: "none" }}>
                     <button className="button-look bold">See</button>
                   </Link>
                 </p>

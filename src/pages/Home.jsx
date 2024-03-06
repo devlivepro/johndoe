@@ -21,17 +21,17 @@ const Home = () => {
                     {/* Contenu de gauche */}
                     <div className="col-md-6">
                       <h1 className="card-title border-title bold">About</h1>
-                        <blockquote className="semi-bold">
-                          Passionate about computers and new technologies, I
+                      <blockquote className="semi-bold">
+                        Passionate about computers and new technologies, I
                         trained as a <strong>web integrator-developer</strong>
                         at CEF. During this training, I was able to acquire a
-                        solid foundation for working in the field of <strong>web
-                        development</strong>.
-                        </blockquote>
+                        solid foundation for working in the field of{" "}
+                        <strong>web development</strong>.
+                      </blockquote>
 
                       <blockquote>
                         Based in Lyon, I'm looking for a work-study position in
-                        a digital agency to consolidate my training as a
+                        a digital agency to consolidate my training as a{" "}
                         <strong>full-stack web developer</strong>.
                       </blockquote>
 
@@ -60,8 +60,7 @@ const Home = () => {
                           aria-valuemin="0"
                           aria-valuemax="100"
                           aria-labelledby="progressbar-label"
-                        >
-                        </div>
+                        ></div>
                       </div>
 
                       <span id="progressbar-label">CSS 80%</span>
@@ -74,8 +73,7 @@ const Home = () => {
                           aria-valuemin="0"
                           aria-valuemax="100"
                           aria-labelledby="progressbar-label"
-                        >
-                        </div>
+                        ></div>
                       </div>
 
                       <span id="progressbar-label">JAVASCRIPT 70%</span>
@@ -88,9 +86,7 @@ const Home = () => {
                           aria-valuemin="0"
                           aria-valuemax="100"
                           aria-labelledby="progressbar-label"
-                        >
-                          
-                        </div>
+                        ></div>
                       </div>
 
                       <span id="progressbar-label">PHP 60%</span>
@@ -103,9 +99,7 @@ const Home = () => {
                           aria-valuemin="0"
                           aria-valuemax="100"
                           aria-labelledby="progressbar-label"
-                        >
-                          
-                        </div>
+                        ></div>
                       </div>
 
                       <span id="progressbar-label">REACT 50%</span>
@@ -118,11 +112,8 @@ const Home = () => {
                           aria-valuemin="0"
                           aria-valuemax="100"
                           aria-labelledby="progressbar-label"
-                        >
-                          
-                        </div>
+                        ></div>
                       </div>
-
                     </div>
                   </div>
                 </div>

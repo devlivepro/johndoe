@@ -16,8 +16,10 @@ function Footer() {
           <div className="col-md-3">
             <p>
               <h6 className="bold">John Doe</h6>
-              <address className="semi-bold">
-                40 Rue Laure Diebold <br/> 69009 Lyon, France <br/> Phone: 06 20 30 40 45
+              <address className="mt-2">
+                <p className="semi-bold">40 Rue Laure Diebold</p>
+                <p className="semi-bold ">69009 Lyon, France</p>
+                <p className="semi-bold ">Phone: 06 20 30 40 45</p>
               </address>
             </p>
             <div>

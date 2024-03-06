@@ -18,7 +18,7 @@ function Nav() {
 
     // Bloc nav
     <nav className="navbar navbar-expand-lg navbar-dark nav-bg-color">
-      <div className="container-lg">
+      <div className="container">
         <Link to="/" className="navbar-brand">
           <p class="header-text">John Doe</p>
         </Link>

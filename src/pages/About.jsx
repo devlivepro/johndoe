@@ -29,11 +29,12 @@ const About = () => {
       {/* Bloc */}
       <main className="container mt-4">
         <div className="col-md-12 mb-4">
-          <h1 className="text-center color-official4 border-section-title banner-section-bg">
-            About
-          </h1>
-
           <div className="card text-center">
+          <h1 className="text-center">Github user</h1>
+            <h5 className="text-center">
+              John Doe
+            </h5>
+            
             <p>
               <br />
               {loading ? (

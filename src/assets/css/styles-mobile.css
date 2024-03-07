@@ -19,8 +19,19 @@
       text-transform: uppercase;
       line-height: 3;
     }
-    .footer-links {
-      display: none;
+    .col-md-2{
+      width: 100%;
     }
-
+    .col-md-3{
+      margin-left: 3%;
+    }
+    .container{
+      margin-right: 5%;
+      margin-left: auto;
+    }
+    .map-adapt{
+      height: auto;
+      overflow: hidden;
+      max-width: 100%;
+    }
   }

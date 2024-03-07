@@ -12,9 +12,10 @@ Installation Steps
 
     bash
 
-
-    Clone the project from GitHub: git clone https://github.com/devlivepro/johndoe.git
-
+Clone the project from GitHub: 
+    
+    git clone https://github.com/devlivepro/johndoe.git
+    
 Make sure to replace your-user and your-project with your GitHub username and the name of your project.
 
 Navigate to the project directory:

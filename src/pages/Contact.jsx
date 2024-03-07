@@ -148,7 +148,7 @@ const Contact = () => {
 
               <div
                 className="col-md-12"
-                style={{ height: "100%", overflow: "hidden" }}
+                style={{ height: "100%", overflow: "hidden", maxWidth: "100%", height:"auto"}}
               >
                 <iframe
                   className="map"

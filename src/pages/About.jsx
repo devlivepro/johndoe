@@ -30,11 +30,11 @@ const About = () => {
       <main className="container mt-4">
         <div className="col-md-12 mb-4">
           <div className="card text-center">
-          <h1 className="text-center">Github user</h1>
-            <h5 className="text-center">
+          <h1 className="text-center bold">Github user</h1>
+            <h5 className="text-center semi-bold">
               John Doe
             </h5>
-            
+
             <p>
               <br />
               {loading ? (

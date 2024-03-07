@@ -36,18 +36,19 @@ const About = () => {
                 <p>Loading...</p>
               ) : (
                 <div>
-                  <h2>{userData.name}</h2>
+                  <h2 className="semi-bold">{userData.name}</h2>
                   <img src={userData.avatar_url} alt="Avatar" width="150" />
-                  <p>{userData.bio}</p>
-                  <p>Followers: {userData.followers}</p>
-                  <p>Following: {userData.following}</p>
-                  <p>Public Repos: {userData.public_repos}</p>
+                  <p className="color-official3">{userData.bio}</p>
+                  <p className="color-official3">Followers: {userData.followers}</p>
+                  <p className="color-official3">Following: {userData.following}</p>
+                  <p className="color-official3">Created on: {userData.created_at}</p>
+                  <p className="color-official3">Modified on: {userData.updated_at}</p>
                   <a
                     href={userData.html_url}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    View GitHub Profile
+                    URL repositories : https://api.github.com/users/github-john-doe/repos
                   </a>
                 </div>
               )}

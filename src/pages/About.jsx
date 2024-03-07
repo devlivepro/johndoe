@@ -31,9 +31,7 @@ const About = () => {
         <div className="col-md-12 mb-4">
           <div className="card text-center">
           <h1 className="text-center bold">Github user</h1>
-            <h5 className="text-center semi-bold">
-              John Doe
-            </h5>
+          <h2 className="text-center semi-bold">{userData.name}</h2>
 
             <p>
               <br />
@@ -44,7 +42,7 @@ const About = () => {
                   <img src={userData.avatar_url} alt="Avatar" width="150" />
                   <br />
                   <br />
-                  <h2>{userData.name}</h2>
+                  
                   <p>{userData.bio}</p>
                   <p>Followers: {userData.followers}</p>
                   <p>Following: {userData.following}</p>

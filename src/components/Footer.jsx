@@ -158,7 +158,7 @@ function Footer() {
 
       <div className="row" style={{ backgroundColor: "#000000" }}>
         <div className="col-md-12 text-center">
-          <p className="footer color-official4">© Designed by John Doe</p>
+          <p className="footer color-official4 mb-4">© Designed by John Doe</p>
         </div>
       </div>
     </footer>

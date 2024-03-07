@@ -23,7 +23,7 @@ const Service = () => {
             <h5 className="text-center">Here are the services I can provide.</h5>
             <div className="border-title-service text-center"></div>
           </div>
-          <div className="col-md-4 mb-4">
+          <div className="col-md-2 mb-4">
             <div className="card">
               <div className="card-img-top" alt="Projet 1" />
               <div className="card-body margin-bottom-sectionservice mt-5 text-center">
@@ -46,7 +46,7 @@ const Service = () => {
           {/* End service 1 */}
 
           {/* Service 2 */}
-          <div className="col-md-4 mb-4">
+          <div className="col-md-2 mb-4">
             <div className="card">
               <div className="card-img-top" alt="Projet 2" />
               <div className="card-body margin-bottom-sectionservice mt-5 text-center">
@@ -69,7 +69,7 @@ const Service = () => {
           {/* End service 2 */}
 
           {/* Service 3 */}
-          <div className="col-md-4 mb-4">
+          <div className="col-md-2 mb-4">
             <div className="card">
               <div className="card-img-top" alt="Projet 3" />
               <div className="card-body margin-bottom-sectionservice mt-5 text-center">
